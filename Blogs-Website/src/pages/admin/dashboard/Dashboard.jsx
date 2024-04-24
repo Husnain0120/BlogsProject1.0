@@ -23,7 +23,7 @@ function Dashboard() {
                     <div className="left">
                         <img
                             className=" w-40 h-40  object-cover rounded-full border-2 border-pink-600 p-1"
-                            src={'https://cdn-icons-png.flaticon.com/128/3135/3135715.png'} alt="profile"
+                            src={'https://cdn-icons-png.freepik.com/256/6024/6024190.png?uid=R98459826&ga=GA1.1.1114926933.1708955695&semt=ais_hybrid'} alt="profile"
                         />
                     </div>
                     <div className="right">
@@ -31,20 +31,17 @@ function Dashboard() {
                             className='text-center font-bold text-2xl mb-2'
                             style={{ color: mode === 'dark' ? 'white' : 'black' }}
                         >
-                            Kamal Nayan Upadhyay
+                            Muhammad Husnain Rashid
                         </h1>
 
                         <h2
                             style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
-                            Software Developer
+                            FrontEnd Web  Developer
                         </h2>
                         <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">knupadhyay784@gmail.com
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">muhammadhusnainrashid.bs@gmail.com
                         </h2>
-                        <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
-                            <span>Total Blog : </span>  15
-                        </h2>
+                      
                         <div className=" flex gap-2 mt-2">
                             <Link to={'/createblog'}>
                                 <div className=" mb-2">
